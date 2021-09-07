@@ -1,0 +1,51 @@
+.todoPageItem {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 8px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.todoPageItem .marginTop {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.todoPageItem .marginTop span {
+    display: block;
+    transition: .3s;
+    padding: 4px;
+    margin-right: 15px;
+    color: black;
+    border: wheat;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.todoPageItem .marginTop span:hover {
+    transform: scale(1.3);
+}
+
+.back {
+    padding: 4px;
+    margin-right: 15px;
+    color: black;
+    border: wheat;
+    border-radius: 15%;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.todoPageItem__desc {
+    width: 800px;
+}
+
+.todoPageItem .marginTop span:nth-child(4) {
+    transform: scale(1);
+}
+
+.todoPageItem .marginTop span:nth-child(5) {
+    transform: scale(1);
+}

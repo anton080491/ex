@@ -1,0 +1,28 @@
+.AppHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.AppHeader a {
+    display: flex;
+    justify-content: center;
+}
+
+.AppHeader a h2 {
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.AppHeader a h2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.tasks span {
+    margin-right: 20px;
+}
